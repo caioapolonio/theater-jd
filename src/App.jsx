@@ -1,13 +1,11 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Discover from "./pages/Discover";
 
 const App = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#151515] text-white">
-      <div className="flex-grow">
-        <h1>Home</h1>
-        <p>Welcome to the home page</p>
-      </div>
+      <Discover />
       <Navbar />
     </div>
   );
