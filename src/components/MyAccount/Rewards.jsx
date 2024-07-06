@@ -14,7 +14,7 @@ function Rewards() {
                             return (
                                 <picture key={item} className="size-fit">
                                     <Ticket
-                                        className={`size-12v fill-white ${freeTicket ? "fill-white" : "fill-[#888888]"}`}/>
+                                        className={`size-12v fill-white ${freeTicket ? "fill-white" : "!fill-[#888888]"}`}/>
                                 </picture>
                             )
                         })}
