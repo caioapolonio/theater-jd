@@ -6,3 +6,14 @@
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+@layer utilities {
+  .hide-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scroll::-webkit-scrollbar {
+    display: none;
+  }
+}

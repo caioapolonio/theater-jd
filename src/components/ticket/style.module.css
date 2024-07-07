@@ -1,0 +1,46 @@
+.container {
+    background-color: #222222;
+    height: 136px;
+    margin-top: 20px;
+    margin: 20px 8px 16px 8px;
+}
+
+.content {
+    display: flex;
+    max-width: 400px;
+    margin: 0 12px 0 16px;
+}
+
+.content img {
+    height: 155px;
+    width: 105px;
+    position: relative;
+    bottom: 14px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px 0px 32px 16px;
+    width: 100%;
+}
+
+.details h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.details p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #C6C6CD;
+}
+
+.ancora {
+    color: #4a80e8;
+    font-size: 12px;
+    font-weight: 400;
+    align-self: flex-end;
+}
