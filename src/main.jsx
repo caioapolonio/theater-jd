@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { createBrowserRouter, Router, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UpcomingTickets from "./pages/UpcomingTickets.jsx";
 import Tickets from "./pages/Tickets.jsx";
 import Theaters from "./pages/Theathers.jsx";
