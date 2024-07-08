@@ -14,7 +14,9 @@ const Navbar = () => {
           <a
             href="/"
             className={`${
-              location.pathname === "/" ? "text-white" : "text-[#EEEEEE]"
+              location.pathname === "/"
+                ? "text-white"
+                : "text-[#EEEEEE] opacity-50"
             } flex flex-col items-center gap-1`}
           >
             <img src={discoverIcon} alt="" className="h-4" />
@@ -25,7 +27,9 @@ const Navbar = () => {
           <a
             href="/tickets"
             className={`${
-              location.pathname === "/tickets" ? "text-white" : "text-[#EEEEEE]"
+              location.pathname === "/tickets"
+                ? "text-white"
+                : "text-[#EEEEEE] opacity-50"
             } flex flex-col items-center gap-1`}
           >
             <img src={icon} alt="" className="h-4" />
@@ -38,7 +42,7 @@ const Navbar = () => {
             className={`${
               location.pathname === "/theaters"
                 ? "text-white"
-                : "text-[#EEEEEE]"
+                : "text-[#EEEEEE] opacity-50"
             } flex flex-col items-center gap-1`}
           >
             <img src={theatersIcon} alt="" className="h-4" />
@@ -49,7 +53,9 @@ const Navbar = () => {
           <a
             href="/account"
             className={`${
-              location.pathname === "/account" ? "text-white" : "text-[#EEEEEE]"
+              location.pathname === "/account"
+                ? "text-white"
+                : "text-[#EEEEEE] opacity-50"
             } flex flex-col items-center gap-1`}
           >
             <img src={accountIcon} alt="" className="h-4" />
