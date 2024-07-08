@@ -26,7 +26,7 @@ const Discover = () => {
         <h2 className="px-4 py-7 font-black text-3xl ">Featured Movies</h2>
         <div className="flex gap-8 overflow-x-auto flex-nowrap flex-shrink-0 px-4 ">
           {featuredMovies.map((movie) => (
-            <div className="flex-shrink-0 flex flex-col w-[222px] text-[#EEEEEE] gap-2">
+            <div key={movie.id} className="flex-shrink-0 flex flex-col w-[222px] text-[#EEEEEE] gap-2">
               <img
                 src={movie.images[0].url}
                 alt=""

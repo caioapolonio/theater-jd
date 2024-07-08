@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+#titulo{
+    font-size: 30px;
+
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -16,4 +21,5 @@
   .hide-scroll::-webkit-scrollbar {
     display: none;
   }
+
 }
