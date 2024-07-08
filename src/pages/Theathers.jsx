@@ -1,10 +1,12 @@
+import MapContainer from "../components/MapsPage/MapContainer";
+import MenuContainer from "../components/MapsPage/MenuContainer";
 import Navbar from "../components/Navbar";
 
 const Theaters = () => {
   return (
-    <div>
-      <h1>Theaters</h1>
-      <p>Find a theater near you</p>
+    <div className="flex flex-col min-h-screen bg-[#151515] text-white box-border ">
+      <MapContainer />
+      <MenuContainer />
       <Navbar />
     </div>
   );

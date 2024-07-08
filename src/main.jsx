@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UpcomingTickets from "./pages/UpcomingTickets.jsx";
 import Tickets from "./pages/Tickets.jsx";
 import Theaters from "./pages/Theathers.jsx";
+import MyAccount from "./pages/MyAccount.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
   { path: "/upcoming-tickets", element: <UpcomingTickets /> },
   { path: "/tickets", element: <Tickets /> },
   { path: "/theaters", element: <Theaters /> },
+  { path: "/account", element: <MyAccount /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
